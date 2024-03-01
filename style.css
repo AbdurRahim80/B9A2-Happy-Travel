@@ -1,0 +1,126 @@
+/* Google font here */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.container {
+    max-width: 1170px;
+    font-family: "Mulish";
+    margin: 0 auto;
+
+}
+
+/* Banner section start here */
+.banner {
+    height: 500px;
+    background-image: url("Images/Group 13 (1) (1).png");
+    border-radius: 16px;
+    background: linear-gradient(50deg red, black);
+}
+
+.banner_shadow {
+    border-radius: 16px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    position: relative;
+}
+
+.banner_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner_text h1 {
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.banner_text p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -52px;
+}
+
+.input-bg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 7px;
+    gap: 5px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.in_put {
+    width: 170px;
+    height: 51px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+
+
+
+}
+
+#btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 170px;
+    height: 51px;
+    padding: 10px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+/* Banner section end here */
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive */
+@media screen and (max-width: 600px) {
+    /* Banner section start here */
+    .banner_text h1 {
+        color: #FFF;
+        font-size: 23px;
+        font-weight: 400;
+    }
+    .banner_text p {
+        text-align: center;
+        font-size: 13px;
+        margin-top: -15px;
+    }
+    .input-bg{
+        flex-direction: column;
+        gap: 10px;
+        height: 100%;
+    }
+
+    .in_put {
+        width: 270px;
+    }
+    #btn{
+        width: 270px;
+    }
+    /* Banner section end here */
+    
+}
