@@ -328,6 +328,59 @@ h3 {
 }
 
 /* newsletter section end here-----------------------------------  */
+/* newsletter section end here--------------------------  */
+.foo-sec {
+    font-family: "Mulish";
+    height: 400px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 100px;
+
+}
+
+.foo_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.foo-sec h1 {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.foo-sec p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.happy {
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.foo-sec ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.foo-sec ul>li {
+    color: #131318;
+    list-style: none;
+
+}
+
+/* newsletter section end here--------------------------  */
 
 
 
@@ -484,4 +537,14 @@ h3 {
     }
 
     /* newsletter section end here--------------------------  */
+
+
+
+    /* footer section end --------- */
+    .foo-sec {
+        height: 450px;
+        padding: 20px auto 50px;
+    }
+
+    /* footer section end --------- */
 }
