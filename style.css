@@ -8,6 +8,56 @@
 
 }
 
+/* start navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .happy_text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.happy_text h1 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.travel-color {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+nav ul>li {
+    list-style: none;
+    padding-right: 5px;
+}
+
+nav ul>li>a {
+    text-decoration: none;
+    color:  #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav .menu{
+    display: none;
+}
+nav ul>li>a:hover{
+    color: #FF5400;
+}
+
+/* end navbar */
 /* Banner section start here */
 .banner {
     height: 500px;
@@ -260,8 +310,6 @@ h3 {
     margin-top: 70px;
 }
 
-.text-container {}
-
 .news_text {
     width: 474px;
     height: 400px;
@@ -386,9 +434,28 @@ h3 {
 
 
 
+
+
+
 /* mobile responsive---------------------------------------------------- */
 @media screen and (max-width: 600px) {
+    /* navbar section start */
+    nav ul {
+        display: none;
+    }
+    nav .menu{
+        display: block;
+        padding-right: 15px;
+    }
 
+    .happy_text img{
+        width: 18%;
+    }
+    nav .happy_text h1 , .travel-color {
+        font-size: 20px;
+        font-weight: 500px;
+    }
+    /* navbar section end */
     /* Banner section start here */
     .banner_text h1 {
         color: #FFF;
