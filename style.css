@@ -128,11 +128,130 @@ li {
 
 /* popular section end here */
 
+/* choose section start here */
+.choose {
+    margin-top: 90px;
+}
+
+.choose_text h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose_text p {
+    color: rgba(19, 19, 24, 0.70);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    /* width: 643px; */
+    padding-bottom: 50px;
+
+}
+
+.img_1 {
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.choose_img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* choose section end here */
+/* why choose section end here ----------------------------------*/
+.why h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title_des {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 50%;
+    margin: 10px auto 20px;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.top-1 {
+    width: 50%;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    line-height: 2%;
+}
+
+.top-1 h4 , .top-2 h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.top-2 p, .top-1 p, .card-bottom p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card-bottom h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.top-2 {
+    width: 50%;
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    line-height: 2%;
+
+}
+
+.card-bottom {
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 20px;
+    line-height: 2%;
+
+}
+
+/* why choose section end here----------------------------------- */
 
 
 
 
-/* mobile responsive */
+
+/* mobile responsive---------------------------------------------------- */
 @media screen and (max-width: 600px) {
 
     /* Banner section start here */
@@ -146,6 +265,7 @@ li {
         text-align: center;
         font-size: 13px;
         margin-top: -15px;
+
     }
 
     .input-bg {
@@ -170,22 +290,68 @@ li {
 
     }
 
-    .popular_text{
+    .popular_text {
         width: 90%;
         padding: 15px;
     }
+
     .popular h1 {
         color: #131318;
         font-size: 30px;
         font-weight: 600;
     }
-    .popular_img img{
+
+    .popular_img img {
         width: 100%;
         height: 90%;
-
-
     }
 
     /* popular section end here */
 
+    /* choose section start here */
+    .choose {
+        margin-top: 600px;
+    }
+
+    .choose_text h1 {
+        font-size: 25px;
+    }
+
+    .choose_img {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .choose_img img {
+        width: 100%;
+        height: 350px;
+    }
+
+    /* choose section end here */
+    /* why choose section end here----------------------------*/
+    .card-top {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .top-1 {
+        width: 92%;
+    }
+
+    .top-2 {
+        width: 92%;
+    }
+
+    .card-bottom {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    p.title_des {
+        width: 94%;
+    }
+
+    /* why choose section end here---------------------------- */
 }
