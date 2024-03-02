@@ -46,14 +46,16 @@ nav ul>li {
 
 nav ul>li>a {
     text-decoration: none;
-    color:  #424247;
+    color: #424247;
     font-size: 18px;
     font-weight: 400;
 }
-nav .menu{
+
+nav .menu {
     display: none;
 }
-nav ul>li>a:hover{
+
+nav ul>li>a:hover {
     color: #FF5400;
 }
 
@@ -302,7 +304,49 @@ h3 {
 
 /* why choose section end here----------------------------------- */
 
-/*newsletter section end here-----------------------------------   */
+/* payment methods start */
+.hostel_fee {
+    text-align: center;
+
+}
+
+.pay_contain {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    height: 500px;
+
+}
+
+.payment_methods {
+    text-align: left;
+}
+
+.hostel_fee h2{
+    margin-top: 80px;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.payment_methods {
+    width: 90%;
+    padding: 20px;
+    background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgb(248, 243, 243);
+    border-radius: 20px;
+}
+.payment_methods h1 {
+    color: #FF5400;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* payment methods start */
+
+
+/*newsletter section start here-----------------------------------   */
 .newsletter {
     display: flex;
     justify-content: space-between;
@@ -362,7 +406,7 @@ h3 {
     position: absolute;
     width: 324px;
     height: 120px;
-    top: 521%;
+    top: 4077px;
     left: 68.4%;
     transform: rotate(-19.628deg);
     border-radius: 16px;
@@ -376,7 +420,7 @@ h3 {
 }
 
 /* newsletter section end here-----------------------------------  */
-/* newsletter section end here--------------------------  */
+/* footer section start here--------------------------  */
 .foo-sec {
     font-family: "Mulish";
     height: 400px;
@@ -428,7 +472,7 @@ h3 {
 
 }
 
-/* newsletter section end here--------------------------  */
+/* footer section end here--------------------------  */
 
 
 
@@ -439,22 +483,27 @@ h3 {
 
 /* mobile responsive---------------------------------------------------- */
 @media screen and (max-width: 600px) {
+
     /* navbar section start */
     nav ul {
         display: none;
     }
-    nav .menu{
+
+    nav .menu {
         display: block;
         padding-right: 15px;
     }
 
-    .happy_text img{
+    .happy_text img {
         width: 18%;
     }
-    nav .happy_text h1 , .travel-color {
+
+    nav .happy_text h1,
+    .travel-color {
         font-size: 20px;
         font-weight: 500px;
     }
+
     /* navbar section end */
     /* Banner section start here */
     .banner_text h1 {
@@ -597,7 +646,7 @@ h3 {
 
     .travel_save {
         left: 41%;
-        top: 1165%;
+        top: 1405%;
         font-size: 16px;
         height: 80px;
         width: 51%;
@@ -605,6 +654,22 @@ h3 {
 
     /* newsletter section end here--------------------------  */
 
+    /* payment start */
+    .pay_contain {
+      flex-direction: column;
+        gap: 60px;
+        height: 500px;
+    }
+    .pay_img img {
+        width: 90%;
+    }
+    .news_text{
+        margin-top: 530px;
+    }
+    .payment_methods h1{
+        font-size: 27px;
+    }
+    /* payment end */
 
 
     /* footer section end --------- */
